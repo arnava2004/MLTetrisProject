@@ -62,7 +62,7 @@ class QLTetrisNeuralNetwork(nn.Module):
             x = torch.squeeze(x)
             loss = criterion(x, y)
             loss.backward()
-            nn.utils.clip_grad_norm_(self.parameters(), max_norm=1.0)
+            # nn.utils.clip_grad_norm_(self.parameters(), max_norm=1.0)
             optimizer.step()
             print(f"Episode {i}: {moves} moves, Loss: {float(loss)}, Score: {score}")
 

@@ -47,7 +47,7 @@ class TetrisBlocks():
         180: [(1,0), (2,0), (1,1), (2,1)],
         270: [(1,0), (2,0), (1,1), (2,1)],
     }
-    DEFAULTBLOCKS = {0: LINEBLOCK, 1: TBLOCK, 2: FORWARDLBLOCK, 3: BACKWARDLBLOCK, 4: BACKWARDZBLOCK, 5: FORWARDZBLOCK, 6: SQUAREBLOCK}
+    DEFAULTBLOCKS = [LINEBLOCK, TBLOCK, FORWARDLBLOCK, BACKWARDLBLOCK, BACKWARDZBLOCK, FORWARDZBLOCK, SQUAREBLOCK]
     SINGLEBLOCK = {
         0: [(0,0)],
         90: [(0,0)],
@@ -66,7 +66,7 @@ class TetrisEnvironment():
         2: (0, 167, 247),
     }
 
-    def __init__(self, blocks: dict[int, dict[int, list[tuple[int, int]]]] = TetrisBlocks.DEFAULTBLOCKS, width = 10, height = 20):
+    def __init__(self, blocks: list[dict[int, list[tuple[int, int]]]] = TetrisBlocks.DEFAULTBLOCKS, width = 10, height = 20):
         self.tetrominos = blocks
         self.boardWidth = width
         self.boardHeight = height
@@ -172,6 +172,7 @@ class TetrisEnvironment():
     def _number_of_holes(self, board):
         '''Number of holes in the board (empty sqquare with at least one block above it)'''
         holes = 0
+        covers = 0
 
         for col in zip(*board):
             i = 0
@@ -179,7 +180,12 @@ class TetrisEnvironment():
                 i += 1
             holes += len([x for x in col[i+1:] if x == TetrisEnvironment.MAP_EMPTY])
 
-        return holes
+            i = self.boardHeight - 1
+            while i >= 0 and col[i] != TetrisEnvironment.MAP_EMPTY:
+                i -= 1
+            covers += len([x for x in col[:i+1] if x == TetrisEnvironment.MAP_BLOCK])
+
+        return holes, covers
 
 
     def _bumpiness(self, board):
@@ -233,16 +239,19 @@ class TetrisEnvironment():
                     totalExposure += board[y][max(0, x - 1)] != TetrisEnvironment.MAP_BLOCK
                     totalExposure += board[min(self.boardHeight - 1, y + 1)][x] != TetrisEnvironment.MAP_BLOCK
                     totalExposure += board[max(0, y - 1)][x] != TetrisEnvironment.MAP_BLOCK
-        avgExposure = totalExposure / blocks
+        avgExposure = totalExposure / max(blocks, 1)
         return totalExposure, avgExposure
 
 
     def _get_board_props(self, board):
         '''Get properties of the board'''
         lines, board = self._clear_lines(board)
-        holes = self._number_of_holes(board)
+        holes, covers = self._number_of_holes(board)
         total_bumpiness, max_bumpiness = self._bumpiness(board)
         sum_height, max_height, min_height = self._height(board)
+        total_exposure, avg_exposure = self._exposure(board)
+        # return [total_bumpiness]
+        # return [max_height, holes, covers]
         return [lines, holes, total_bumpiness, sum_height]
 
 
@@ -303,13 +312,14 @@ class TetrisEnvironment():
         # Update board and calculate score        
         self.board = self._add_piece_to_board(self._get_rotated_piece(), self.current_pos)
         lines_cleared, self.board = self._clear_lines(self.board)
-        score = 1 + (lines_cleared ** 2) * self.boardWidth
+        # score = 1 + (lines_cleared ** 2) * self.boardWidth
+        score = lines_cleared
         self.score += score
 
         # Start new round
         self._new_round()
         if self.game_over:
-            score -= 2
+            score = -1
 
         return score, self.game_over
 
