@@ -1,0 +1,115 @@
+Model: ExposurePerceptron
+layers.0.weight: tensor([[-0.0789]])
+layers.0.bias: tensor([-0.4589])
+
+Sample Stats:
+
+   Mean Score:  0.2
+   Std. Score:  0.6
+   Min Score: 0
+   Max Score: 3
+
+   Average Moves:  25.6
+   Average Time:  0.220s
+__________________________________________________
+
+Game 1   Score: 0, Moves: 22, Time: 0.18047046661376953
+Game 2   Score: 0, Moves: 23, Time: 0.17497754096984863
+Game 3   Score: 0, Moves: 36, Time: 0.29491162300109863
+Game 4   Score: 0, Moves: 22, Time: 0.20241093635559082
+Game 5   Score: 0, Moves: 18, Time: 0.16002488136291504
+Game 6   Score: 1, Moves: 29, Time: 0.25365567207336426
+Game 7   Score: 0, Moves: 25, Time: 0.18780946731567383
+Game 8   Score: 0, Moves: 27, Time: 0.20124578475952148
+Game 9   Score: 0, Moves: 17, Time: 0.13965225219726562
+Game 10   Score: 0, Moves: 15, Time: 0.1008291244506836
+Game 11   Score: 0, Moves: 33, Time: 0.26395249366760254
+Game 12   Score: 0, Moves: 26, Time: 0.18344807624816895
+Game 13   Score: 0, Moves: 16, Time: 0.10663628578186035
+Game 14   Score: 2, Moves: 41, Time: 0.34125709533691406
+Game 15   Score: 0, Moves: 25, Time: 0.18175935745239258
+Game 16   Score: 0, Moves: 39, Time: 0.253786563873291
+Game 17   Score: 0, Moves: 31, Time: 0.24033737182617188
+Game 18   Score: 0, Moves: 18, Time: 0.12575840950012207
+Game 19   Score: 0, Moves: 21, Time: 0.14141368865966797
+Game 20   Score: 0, Moves: 35, Time: 0.2627675533294678
+Game 21   Score: 0, Moves: 20, Time: 0.1426711082458496
+Game 22   Score: 0, Moves: 15, Time: 0.11157798767089844
+Game 23   Score: 0, Moves: 15, Time: 0.10726714134216309
+Game 24   Score: 0, Moves: 27, Time: 0.22851061820983887
+Game 25   Score: 0, Moves: 22, Time: 0.1688094139099121
+Game 26   Score: 0, Moves: 18, Time: 0.12688374519348145
+Game 27   Score: 0, Moves: 16, Time: 0.11705231666564941
+Game 28   Score: 0, Moves: 29, Time: 0.22471237182617188
+Game 29   Score: 0, Moves: 25, Time: 0.18782448768615723
+Game 30   Score: 0, Moves: 16, Time: 0.12274765968322754
+Game 31   Score: 0, Moves: 32, Time: 0.23801207542419434
+Game 32   Score: 3, Moves: 44, Time: 0.3742506504058838
+Game 33   Score: 0, Moves: 24, Time: 0.18445062637329102
+Game 34   Score: 0, Moves: 22, Time: 0.14871668815612793
+Game 35   Score: 0, Moves: 28, Time: 0.18283534049987793
+Game 36   Score: 0, Moves: 21, Time: 0.14003324508666992
+Game 37   Score: 0, Moves: 20, Time: 0.13555312156677246
+Game 38   Score: 0, Moves: 31, Time: 0.21691441535949707
+Game 39   Score: 0, Moves: 26, Time: 0.1902177333831787
+Game 40   Score: 1, Moves: 36, Time: 0.26790285110473633
+Game 41   Score: 0, Moves: 21, Time: 0.14802885055541992
+Game 42   Score: 0, Moves: 23, Time: 0.15587449073791504
+Game 43   Score: 0, Moves: 26, Time: 0.21890735626220703
+Game 44   Score: 1, Moves: 39, Time: 0.39998817443847656
+Game 45   Score: 0, Moves: 24, Time: 0.19446706771850586
+Game 46   Score: 0, Moves: 37, Time: 0.32561588287353516
+Game 47   Score: 0, Moves: 23, Time: 0.16375374794006348
+Game 48   Score: 0, Moves: 34, Time: 0.33147501945495605
+Game 49   Score: 0, Moves: 32, Time: 0.29378294944763184
+Game 50   Score: 0, Moves: 21, Time: 0.2051558494567871
+Game 51   Score: 0, Moves: 20, Time: 0.1898190975189209
+Game 52   Score: 1, Moves: 30, Time: 0.32065629959106445
+Game 53   Score: 0, Moves: 19, Time: 0.19490551948547363
+Game 54   Score: 0, Moves: 32, Time: 0.3115699291229248
+Game 55   Score: 0, Moves: 22, Time: 0.2228555679321289
+Game 56   Score: 0, Moves: 32, Time: 0.3439595699310303
+Game 57   Score: 0, Moves: 30, Time: 0.2849273681640625
+Game 58   Score: 1, Moves: 30, Time: 0.32011890411376953
+Game 59   Score: 0, Moves: 17, Time: 0.1665940284729004
+Game 60   Score: 0, Moves: 20, Time: 0.19613337516784668
+Game 61   Score: 0, Moves: 29, Time: 0.23212385177612305
+Game 62   Score: 0, Moves: 33, Time: 0.3128821849822998
+Game 63   Score: 0, Moves: 23, Time: 0.22002434730529785
+Game 64   Score: 0, Moves: 20, Time: 0.20638322830200195
+Game 65   Score: 0, Moves: 20, Time: 0.1563732624053955
+Game 66   Score: 1, Moves: 31, Time: 0.27613139152526855
+Game 67   Score: 0, Moves: 22, Time: 0.2152094841003418
+Game 68   Score: 0, Moves: 17, Time: 0.1446669101715088
+Game 69   Score: 0, Moves: 32, Time: 0.33338093757629395
+Game 70   Score: 0, Moves: 19, Time: 0.16570043563842773
+Game 71   Score: 0, Moves: 16, Time: 0.13280558586120605
+Game 72   Score: 0, Moves: 19, Time: 0.1513218879699707
+Game 73   Score: 0, Moves: 21, Time: 0.19785857200622559
+Game 74   Score: 0, Moves: 22, Time: 0.217332124710083
+Game 75   Score: 0, Moves: 20, Time: 0.17307257652282715
+Game 76   Score: 0, Moves: 25, Time: 0.21138358116149902
+Game 77   Score: 0, Moves: 31, Time: 0.2942366600036621
+Game 78   Score: 0, Moves: 33, Time: 0.3227822780609131
+Game 79   Score: 0, Moves: 32, Time: 0.3369863033294678
+Game 80   Score: 0, Moves: 16, Time: 0.12137818336486816
+Game 81   Score: 0, Moves: 25, Time: 0.2147817611694336
+Game 82   Score: 0, Moves: 19, Time: 0.17518401145935059
+Game 83   Score: 0, Moves: 27, Time: 0.26104140281677246
+Game 84   Score: 1, Moves: 33, Time: 0.30239129066467285
+Game 85   Score: 0, Moves: 19, Time: 0.15718793869018555
+Game 86   Score: 0, Moves: 31, Time: 0.28411293029785156
+Game 87   Score: 0, Moves: 37, Time: 0.3451497554779053
+Game 88   Score: 0, Moves: 27, Time: 0.24702167510986328
+Game 89   Score: 0, Moves: 16, Time: 0.12652111053466797
+Game 90   Score: 0, Moves: 21, Time: 0.18578171730041504
+Game 91   Score: 0, Moves: 22, Time: 0.2028038501739502
+Game 92   Score: 0, Moves: 17, Time: 0.157426118850708
+Game 93   Score: 0, Moves: 36, Time: 0.32988953590393066
+Game 94   Score: 1, Moves: 28, Time: 0.2552335262298584
+Game 95   Score: 0, Moves: 26, Time: 0.24029874801635742
+Game 96   Score: 3, Moves: 45, Time: 0.469374418258667
+Game 97   Score: 0, Moves: 24, Time: 0.2006549835205078
+Game 98   Score: 0, Moves: 31, Time: 0.27402400970458984
+Game 99   Score: 2, Moves: 37, Time: 0.3878183364868164
+Game 100   Score: 0, Moves: 19, Time: 0.14849352836608887
