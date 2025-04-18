@@ -73,7 +73,7 @@ class TetrisEnvironment():
 
     def reset(self):
         '''Resets the game, returning the current state'''
-        self.board = [[0] * self.boardWidth] * self.boardHeight
+        self.board = [[TetrisEnvironment.MAP_EMPTY] * self.boardWidth] * self.boardHeight
         self.game_over = False
         self.bag = list(range(len(self.tetrominos)))
         random.shuffle(self.bag)
@@ -322,6 +322,10 @@ class TetrisEnvironment():
             score = -1
 
         return score, self.game_over
+
+
+    def sendLines(self, duelingEnv):
+        return
 
 
     def render(self):
