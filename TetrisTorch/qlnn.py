@@ -4,6 +4,9 @@ import torch
 import torch.nn as nn
 from collections import deque
 
+
+
+
 class QLTetrisNeuralNetwork(nn.Module):
 
     def __init__(self, layers: list[nn.Module]):
