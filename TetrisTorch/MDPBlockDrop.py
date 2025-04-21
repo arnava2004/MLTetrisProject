@@ -2,8 +2,8 @@ import mdpsolver
 from itertools import product
 
 # Parameters
-m = 3  # max height
-n = 2  # number of columns
+m = 6  # max height
+n = 5  # number of columns
 terminal_state = m**n  # the last index is the terminal state
 
 # Generate all valid (non-terminal) states

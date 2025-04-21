@@ -9,6 +9,8 @@ import torch.optim.adam
 from qlnn import QLTetrisNeuralNetwork
 from TetrisEnv import TetrisEnvironment, TetrisBlocks
 
+from MD
+
 STATPATH = "Model Stats\\"
 MODELPATH = "Models\\"
 
@@ -113,6 +115,8 @@ env = TetrisEnvironment()
 blockdrop = TetrisEnvironment([TetrisBlocks.SINGLEBLOCK], width=4,height=4)
 args = parseArguments()
 model = loadModel(args.model)
+
+
 
 if args.train != None:
     trainTetrisModel(model, env, args.train)
