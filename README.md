@@ -30,7 +30,7 @@ conda env create -f env.yml
 conda activate tetris
 ```
 
-## ✅ Running
+## Running
 
 To train or evaluate models:
 
