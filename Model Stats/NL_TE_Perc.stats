@@ -1,0 +1,115 @@
+Model: NL_TE_Perc
+layers.0.weight: tensor([[ 0.1230, -0.0025]])
+layers.0.bias: tensor([0.9819])
+
+Sample Stats:
+
+   Mean Score:  29.0
+   Std. Score:  53.6
+   Min Score: 0
+   Max Score: 233
+
+   Average Moves:  97.8
+   Average Time:  0.319s
+__________________________________________________
+
+Game 1   Score: 204, Moves: 547, Time: 2.0080554485321045
+Game 2   Score: 0, Moves: 21, Time: 0.06245684623718262
+Game 3   Score: 7, Moves: 45, Time: 0.1479322910308838
+Game 4   Score: 0, Moves: 19, Time: 0.06011009216308594
+Game 5   Score: 0, Moves: 19, Time: 0.05625653266906738
+Game 6   Score: 179, Moves: 483, Time: 1.6498832702636719
+Game 7   Score: 0, Moves: 23, Time: 0.06781649589538574
+Game 8   Score: 50, Moves: 158, Time: 0.5206270217895508
+Game 9   Score: 198, Moves: 532, Time: 1.8752596378326416
+Game 10   Score: 0, Moves: 17, Time: 0.05084371566772461
+Game 11   Score: 170, Moves: 459, Time: 1.5482399463653564
+Game 12   Score: 0, Moves: 21, Time: 0.06684470176696777
+Game 13   Score: 16, Moves: 60, Time: 0.18761253356933594
+Game 14   Score: 32, Moves: 111, Time: 0.35320425033569336
+Game 15   Score: 2, Moves: 33, Time: 0.1031656265258789
+Game 16   Score: 0, Moves: 18, Time: 0.05044841766357422
+Game 17   Score: 6, Moves: 39, Time: 0.12298917770385742
+Game 18   Score: 2, Moves: 31, Time: 0.0894172191619873
+Game 19   Score: 1, Moves: 25, Time: 0.071014404296875
+Game 20   Score: 0, Moves: 25, Time: 0.07212686538696289
+Game 21   Score: 0, Moves: 19, Time: 0.05551743507385254
+Game 22   Score: 0, Moves: 21, Time: 0.05893397331237793
+Game 23   Score: 0, Moves: 19, Time: 0.05496048927307129
+Game 24   Score: 2, Moves: 28, Time: 0.08814811706542969
+Game 25   Score: 9, Moves: 52, Time: 0.161773681640625
+Game 26   Score: 0, Moves: 18, Time: 0.05483412742614746
+Game 27   Score: 122, Moves: 342, Time: 1.1530811786651611
+Game 28   Score: 0, Moves: 16, Time: 0.0449061393737793
+Game 29   Score: 0, Moves: 15, Time: 0.04282832145690918
+Game 30   Score: 0, Moves: 23, Time: 0.07159614562988281
+Game 31   Score: 167, Moves: 450, Time: 1.4539639949798584
+Game 32   Score: 0, Moves: 19, Time: 0.05359935760498047
+Game 33   Score: 0, Moves: 21, Time: 0.06429696083068848
+Game 34   Score: 0, Moves: 20, Time: 0.05739307403564453
+Game 35   Score: 0, Moves: 23, Time: 0.06940937042236328
+Game 36   Score: 0, Moves: 22, Time: 0.06741762161254883
+Game 37   Score: 0, Moves: 18, Time: 0.052094221115112305
+Game 38   Score: 0, Moves: 16, Time: 0.0459742546081543
+Game 39   Score: 0, Moves: 19, Time: 0.05527901649475098
+Game 40   Score: 2, Moves: 33, Time: 0.10107064247131348
+Game 41   Score: 94, Moves: 271, Time: 0.8914599418640137
+Game 42   Score: 0, Moves: 27, Time: 0.08231735229492188
+Game 43   Score: 5, Moves: 40, Time: 0.12317156791687012
+Game 44   Score: 42, Moves: 134, Time: 0.3986544609069824
+Game 45   Score: 69, Moves: 209, Time: 0.6931886672973633
+Game 46   Score: 4, Moves: 38, Time: 0.12182426452636719
+Game 47   Score: 85, Moves: 242, Time: 0.7641489505767822
+Game 48   Score: 0, Moves: 17, Time: 0.048844099044799805
+Game 49   Score: 0, Moves: 18, Time: 0.05496096611022949
+Game 50   Score: 0, Moves: 23, Time: 0.07315325736999512
+Game 51   Score: 104, Moves: 295, Time: 0.9980161190032959
+Game 52   Score: 0, Moves: 19, Time: 0.05503726005554199
+Game 53   Score: 13, Moves: 63, Time: 0.199782133102417
+Game 54   Score: 0, Moves: 20, Time: 0.06008505821228027
+Game 55   Score: 0, Moves: 22, Time: 0.0690619945526123
+Game 56   Score: 0, Moves: 26, Time: 0.08185315132141113
+Game 57   Score: 0, Moves: 16, Time: 0.04887533187866211
+Game 58   Score: 0, Moves: 23, Time: 0.07042694091796875
+Game 59   Score: 2, Moves: 34, Time: 0.10820937156677246
+Game 60   Score: 0, Moves: 20, Time: 0.059912681579589844
+Game 61   Score: 117, Moves: 328, Time: 1.110182285308838
+Game 62   Score: 1, Moves: 29, Time: 0.0864875316619873
+Game 63   Score: 0, Moves: 21, Time: 0.06321907043457031
+Game 64   Score: 18, Moves: 72, Time: 0.23064112663269043
+Game 65   Score: 0, Moves: 21, Time: 0.06446313858032227
+Game 66   Score: 0, Moves: 21, Time: 0.06226801872253418
+Game 67   Score: 13, Moves: 60, Time: 0.18868565559387207
+Game 68   Score: 86, Moves: 247, Time: 0.7846605777740479
+Game 69   Score: 1, Moves: 27, Time: 0.08067107200622559
+Game 70   Score: 233, Moves: 617, Time: 1.9719507694244385
+Game 71   Score: 19, Moves: 78, Time: 0.25043559074401855
+Game 72   Score: 0, Moves: 17, Time: 0.05530214309692383
+Game 73   Score: 92, Moves: 259, Time: 0.8144245147705078
+Game 74   Score: 114, Moves: 306, Time: 0.9418885707855225
+Game 75   Score: 3, Moves: 34, Time: 0.10165619850158691
+Game 76   Score: 0, Moves: 16, Time: 0.04560375213623047
+Game 77   Score: 98, Moves: 283, Time: 0.9149954319000244
+Game 78   Score: 0, Moves: 19, Time: 0.05780529975891113
+Game 79   Score: 59, Moves: 183, Time: 0.6064367294311523
+Game 80   Score: 80, Moves: 231, Time: 0.7708797454833984
+Game 81   Score: 138, Moves: 380, Time: 1.2726168632507324
+Game 82   Score: 45, Moves: 149, Time: 0.47466015815734863
+Game 83   Score: 0, Moves: 20, Time: 0.06143331527709961
+Game 84   Score: 38, Moves: 130, Time: 0.416257381439209
+Game 85   Score: 44, Moves: 142, Time: 0.4686403274536133
+Game 86   Score: 0, Moves: 18, Time: 0.055908918380737305
+Game 87   Score: 0, Moves: 20, Time: 0.06100630760192871
+Game 88   Score: 14, Moves: 62, Time: 0.19785213470458984
+Game 89   Score: 37, Moves: 124, Time: 0.3884155750274658
+Game 90   Score: 2, Moves: 28, Time: 0.08471226692199707
+Game 91   Score: 0, Moves: 24, Time: 0.07684636116027832
+Game 92   Score: 55, Moves: 168, Time: 0.5187671184539795
+Game 93   Score: 4, Moves: 37, Time: 0.1141977310180664
+Game 94   Score: 3, Moves: 41, Time: 0.12637686729431152
+Game 95   Score: 0, Moves: 23, Time: 0.06980657577514648
+Game 96   Score: 0, Moves: 15, Time: 0.046900272369384766
+Game 97   Score: 0, Moves: 19, Time: 0.057030439376831055
+Game 98   Score: 1, Moves: 26, Time: 0.07715511322021484
+Game 99   Score: 0, Moves: 19, Time: 0.056868791580200195
+Game 100   Score: 0, Moves: 26, Time: 0.07754969596862793
