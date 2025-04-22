@@ -1,4 +1,3 @@
----
 
 # Tetris AI (MDP & Neural Approaches)
 
