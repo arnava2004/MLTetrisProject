@@ -4,7 +4,7 @@
 
 This project contains a Tetris-playing agent implemented using both MDP (Markov Decision Process) and Q-learning with neural networks.
 
-## 📁 Code Structure
+## Code Structure
 
 ```
 ├── Model Stats/         # Contains performance statistics for trained models
@@ -21,7 +21,7 @@ This project contains a Tetris-playing agent implemented using both MDP (Markov 
 ├── README.md            # You're here :)
 ```
 
-## 📦 Setup
+## Setup
 
 Install dependencies using `conda`:
 
